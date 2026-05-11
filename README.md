@@ -1,6 +1,3 @@
-Tentu, ini versi `.md` yang bersih dan siap kamu *copy-paste* ke dalam proyekmu. Format ini sudah disesuaikan dengan standar dokumentasi profesional.
-
-```markdown
 # Asset Management Backend (Rewrite Version)
 
 Sistem Backend Manajemen Aset Perusahaan yang dirancang untuk stabilitas, akurasi perhitungan finansial (depresiasi), dan integritas data (audit trail). Dibangun dengan pendekatan manual coding untuk memastikan kontrol penuh atas logika bisnis dan arsitektur sistem.
