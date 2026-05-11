@@ -5,9 +5,8 @@ services:
     environment:
       POSTGRES_USER: easset
       POSTGRES_PASSWORD: easset
-      POSTGRES_DB: easset_development
     ports:
-      - "5441:5432"
+      - "5442:5432"
     volumes:
       - easset_postgres_data:/var/lib/postgresql/data
 
