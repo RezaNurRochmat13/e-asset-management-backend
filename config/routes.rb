@@ -19,5 +19,6 @@ Rails.application.routes.draw do
   # Resources routes
   namespace :api do
     resources :assets
+    resources :locations
   end
 end
