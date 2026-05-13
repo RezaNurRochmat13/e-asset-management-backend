@@ -6,7 +6,8 @@ RSpec.describe "Api::Assets", type: :request do
   let!(:location) { create(:location) }
   let!(:asset) { create(:asset, location: location) }
 
-  let(:headers) { { "Authorization" => "Bearer #{user.id}" } }
+  let(:token) { JwtUtil.encode(user_id: user.id) }
+  let(:headers) { { "Authorization" => "Bearer #{token}" } }
 
   describe "GET /api/assets" do
     it "returns list of assets with success status" do
