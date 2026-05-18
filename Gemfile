@@ -56,7 +56,7 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 
-  gem "rspec-rails", "~> 6.0"
+  gem "rspec-rails", "~> 8.0"
   gem "faker"
   gem "factory_bot_rails"
   gem "shoulda-matchers" # Opsional: buat ngetest validasi cuma 1 baris
